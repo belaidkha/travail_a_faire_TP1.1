@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG,"le nom du fichier de la mise en page de l'activité principale est: activity_main.xml");
-        Log.d(TAG,"le nom de la ressource chaîne qui spécifie le nom de l'application est: applicationId");
+        Log.d(TAG,"le nom de la ressource chaîne qui spécifie le nom de l'application est: app_name");
         Log.d(TAG,"l'outil utilisée pour créer un nouvel émulateur est: AVD Manager");
         Log.d(TAG,"MainActivity layout is complete dans le volet Logcat si le menu de niveau Log est réglé sur :info");
 
